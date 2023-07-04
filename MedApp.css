@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input, select {
+    margin-top: 0.5em;
+}
+
+button {
+    display: block;
+    margin-top: 1em;
+}
+
+#result {
+    margin-top: 1em;
+    font-weight: bold;
+}

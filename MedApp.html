@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Medication Dosage Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<head>
+    <title>Medication Dosage Calculator</title>
+</head>
+<body>
+    <h1>Medication Dosage Calculator</h1>
+
+    <form id="dosage-form">
+        <label for="medication">Medication:</label>
+        <select id="medication">
+            <!-- Add the options for the medications here -->
+        </select>
+
+        <label for="indication">Indication:</label>
+        <select id="indication">
+            <!-- Add the options for the indications here -->
+        </select>
+
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight">
+
+        <label for="suspension">Suspension:</label>
+        <select id="suspension">
+            <!-- Add the options for the suspensions here -->
+        </select>
+
+        <button type="button" id="calculate-button">Calculate</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
