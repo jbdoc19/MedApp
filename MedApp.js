@@ -20,4 +20,15 @@ document.getElementById('calculate-button').addEventListener('click', function()
     .then(data => {
         document.getElementById('result').textContent = 'Dosage: ' + data.ml_per_dose + ' ml/dose';
     });
+    window.onload = function() {
+    var medications = ['Amoxicillin', 'Amoxicillin-clavulanate', 'Bactrim', /* add the rest of the medications here */];
+    var medicationSelect = document.getElementById('medication');
+
+    for (var i = 0; i < medications.length; i++) {
+        var option = document.createElement('option');
+        option.value = medications[i];
+        option.text = medications[i];
+        medicationSelect.add(option);
+    }
+};
 });
